@@ -157,10 +157,11 @@ aside {
 }
 
 /** Features **/
+
 .features {
   display: flex;
   justify-content: center;
-  flex-flow:row wrap;
+  flex-flow: row wrap;
 }
 
 .features .features-items {
