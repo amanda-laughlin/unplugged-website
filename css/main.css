@@ -209,9 +209,12 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125em;
+  
 }
 
-header nav ul li a {}
+header nav ul li a {
+
+}
 
 footer {
   flex-direction: column;
@@ -311,11 +314,12 @@ input[type=button] {
 /** Features **/
 
 .features {
+  
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url(../img/unplugged-retreat-features.jpg) center no-repeat;
-  background-size: cover;
 
 }
 
@@ -375,7 +379,9 @@ input[type=button] {
   flex-flow: row wrap;
   background: #527158;
 }
-
+header nav ul li a {
+  padding-right: 20px;
+}
 .contact-section {
   display: flex;
   justify-content: center;
@@ -553,6 +559,9 @@ input[type=button] {
 
   header nav ul {
     justify-content: space-between;
+  }
+  header nav ul li  {
+    padding-right: 20px;
   }
 
   .header-divider {
@@ -747,13 +756,18 @@ input[type=button] {
   }
 
   /*Features*/
-
+.features {
+  padding: 100px 0 50px 0;
+}
   .features h2 {
-    width: 70%;
+    max-width: 960px;
   }
 
   .features article {
     flex-basis: 33%;
+  }
+  .features-item-description {
+    width:64%;
   }
 .features .content-wrapper {
   max-width: 960px;
@@ -761,13 +775,14 @@ input[type=button] {
   justify-content: center;
   align-content: center;
   margin: 0;
+
 }
   .features-items {
     margin: 0;
   }
 
   .features .features-items {
-    width: 73%;
+    max-width: 960px;
   }
 
   /*Reviews*/
@@ -782,7 +797,9 @@ input[type=button] {
   .reviews h2 {
     padding-bottom: 50px;
   }
-
+figure {
+  width: 50%
+}
   .reviews article div {
     width: 42%;
   }
