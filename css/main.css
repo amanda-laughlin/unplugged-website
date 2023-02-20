@@ -343,6 +343,11 @@ input[type=button] {
 
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px; 
+}
+
 .features p {
   margin: 0;
   text-align: center;
@@ -621,7 +626,7 @@ header nav ul li a {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 64%;
   }
 
   /*Reviews*/
