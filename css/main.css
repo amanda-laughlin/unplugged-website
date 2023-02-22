@@ -143,7 +143,6 @@ address {
   font-style: normal;
 }
 
-
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -205,20 +204,15 @@ header nav ul {
   justify-content: space-around;
   width: 100%;
   margin: 0;
-
 }
 
 header nav ul li {
   font-size: 1.125em;
-
 }
-
-header nav ul li a {}
 
 footer {
   flex-direction: column;
   text-align: center;
-
 }
 
 footer p {
@@ -228,7 +222,6 @@ footer p {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
-
 }
 
 footer .contact {
@@ -258,13 +251,13 @@ footer .social-icons p i {
 
 footer .copyright {
   margin: 20px 0;
-
 }
 
 
 /*---------Mobile Styles-Homepage---------*/
 
 /** Hero Area **/
+
 .hero-area {
   display: flex;
   justify-content: center;
@@ -282,6 +275,7 @@ footer .copyright {
 }
 
 /** Aside (Join Next Retreat) **/
+
 aside {
   display: flex;
   justify-content: center;
@@ -316,7 +310,6 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-
 /** Features **/
 
 .features {
@@ -326,7 +319,6 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-
 }
 
 .features .content-wrapper {
@@ -338,7 +330,6 @@ input[type=button] {
   margin-bottom: 60px;
   margin-left: 15px;
   width: 90%;
-
 }
 
 .features article {
@@ -351,8 +342,6 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  
-
 }
 
 .features i {
@@ -367,7 +356,6 @@ input[type=button] {
 .features p {
   margin: 0;
   text-align: center;
- 
 }
 
 /** Reviews Section **/
@@ -389,7 +377,6 @@ input[type=button] {
   margin: 20px 0;
 }
 
-/*----------End of Mobile Homepage Styles----------*/
 /*============================================================================
   About Page
   ============================================================================*/
@@ -400,8 +387,8 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background: #527158;
-  
 }
+
 .mission h2 {
   margin-top: 0;
   margin-bottom: 0;
@@ -434,9 +421,11 @@ header nav ul li a {
   flex-flow: row wrap;
   background: #2a423a;
 }
+
 .contact-section h2 {
   margin:0;
 }
+
 .contact-content p {
   margin: 0;
 }
@@ -585,7 +574,8 @@ header nav ul li a {
    Homepage
    =============================================*/
 
-  /*Header*/
+  /**Header**/
+
   header {
     justify-content: space-around;
     padding: 33px 0;
@@ -616,7 +606,7 @@ header nav ul li a {
     display: none;
   }
 
-  /*Hero Area*/
+  /**Hero Area**/
 
   .hero-area h1 {
     font-size: 3em;
@@ -624,7 +614,8 @@ header nav ul li a {
     margin: 0;
   }
 
-  /*Aside*/
+  /**Aside**/
+
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
@@ -639,11 +630,12 @@ header nav ul li a {
   }
 
 
-/*Features*/
+/**Features**/
 
 .features {
   height: 930px;
 }
+
   .features .features-items {
     width: 640px;
   }
@@ -654,8 +646,8 @@ header nav ul li a {
     justify-content: center;
     align-content: center;
     margin-bottom: 0;
-
   }
+
   .features h2 {
     padding-top: 75px;
     margin-bottom: 20px;
@@ -680,16 +672,14 @@ header nav ul li a {
     margin-bottom: 30px;
   }
 
+  /**Reviews**/
 
-
-  /*Reviews*/
   .reviews {
     height: 543.875px;
   }
   .reviews article {
     display: flex;
     justify-content: space-between;
-
   }
 
   .reviews h2 {
@@ -732,6 +722,7 @@ header nav ul li a {
     font-size: 1.5em;
     margin-bottom: 40px;
   }
+
   footer .social-icons p {
     margin: 0 20px 0 20px;
   }
@@ -829,13 +820,15 @@ header nav ul li a {
     line-height: 1.333;
   }
 
-  /*Hero*/
+  /**Hero**/
+
   .hero-area h1 {
     font-size: 3.75em;
     width: 80%;
   }
 
-  /*Aside*/
+  /**Aside**/
+
   aside .content-wrapper {
     justify-content: space-around;
   }
@@ -849,8 +842,8 @@ header nav ul li a {
     font-size: 1.125em;
   }
 
+  /**Features**/
 
-  /*Features*/
   .features {
     padding: 100px 0 50px 0;
     height: 650px;
@@ -886,19 +879,11 @@ header nav ul li a {
   .features .features-items {
     width: 960px;
   }
-
-
-
   
-  /*Reviews*/
+  /**Reviews**/
+
   .reviews {
     height: 665px;
-    display: flex;
-    justify-content: center;
-    align-items: space-between;
-    flex-flow: row wrap;
-    background: #2a423a;
-    
   }
 
   .reviews h2 {
@@ -909,6 +894,7 @@ header nav ul li a {
   .reviews h3 {
     line-height: 1.25;
   }
+
   figure {
     width: 50%
   }
@@ -924,14 +910,16 @@ header nav ul li a {
   /* ==========================================================================
   About Page
   ========================================================================== */
-.mission {
+
+  .mission {
   height: 503.914px;
   margin: 0;
-
 }
+
 .mission h2 {
   margin: 0;
 }
+
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
@@ -945,6 +933,7 @@ header nav ul li a {
 .contact-section h2 {
   margin:0;
 }
+
   .contact-content h4 {
     font-size: 1.875em;
   }
@@ -952,9 +941,11 @@ header nav ul li a {
   /* ==========================================================================
   FAQ Page
   ========================================================================== */
+ 
   .faq h2 {
     width: 100%;
     font-size: 3em;
+    margin-top: 0;
   }
 
   .faq h4,
